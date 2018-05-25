@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #373737;
+    letter-spacing: 1.5px;
+}
+
+#header {
+    text-align: center; /* Выравнивание строки по центру */
+    background: #ffffff; /* Цвет фона*/
+    height: 82px;
+}
+
+#header ul {
+    margin: 0;
+    padding: 32px 0 0 0;
+}
+
+#header ul li {
+    display: inline; /* Отображать как строчный элемент */
+    padding: 0 30px;
+}
+
+#header a {
+    color: #16a085; /* Цвет текста */
+    text-decoration: none;
+    text-transform: uppercase; /* Заглавные буквы */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#image img {
+    width: 100%;
+}
+
+#body {
+    background: #f5f6f7; /* Цвет фона*/
+    padding: 50px 120px 0 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#body h1 {
+    margin: 0 0 20px 0;
+    text-transform: uppercase; /* Заглавные буквы */
+    font-size: 20px;
+}
+
+#body p {
+    line-height: 1.7;
+}
+
+#body button {
+    background: #16a085;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-transform: uppercase; /* Заглавные буквы */
+    padding: 15px 30px 15px 30px;
+    margin: 15px 0 100px 0;
+    border: 0;
+    border-radius: 2px;
+    letter-spacing: 1.5px;
+}
+
+#footer {
+    background: #ffffff; /* Цвет фона*/
+    height: 112px;
+}
+
+#footer p{
+    text-align: right;
+    padding: 46px 120px 0 0;
+}
