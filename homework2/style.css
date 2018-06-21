@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 1280px;
+    padding: 61px 0 30px 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo {
+    margin-bottom: 45px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 80px;
+}
+
+.logo-1-part {
+    color: #000000;
+}
+
+.logo-2-part {
+    color: #49cbff;
+}
+
+.menu-top {
+    background-color: #35444f;
+    text-align: center;
+}
+
+.menu-top a {
+    display: inline-block;
+    padding: 26px 41px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu-top a:hover {
+    background-color: black;
+}
+
+.menu-top li {
+    display: inline-block;
+}
+
+
+.main-content {
+    margin-top: 51px;
+}
+
+.column-left {
+    float: left;
+    width: 344px;
+    border: 1px solid #32424e;
+}
+
+.menu-left a {
+    font-size: 27px;
+    text-decoration: none;
+    text-align: left;
+    color:  #495863;
+}
+
+.column-right {
+    float: right;
+    width: 882px;
+    margin-left: 52px;
+}
+
+.main-img {
+    text-align: center;
+    border: 1px solid #32424e;
+    padding: 74px 0;
+}
+
+.main-img img {
+    max-width: 100%;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.menu-left li {
+    padding: 28px 0 28px 44px;
+}
+
+.menu-left li:hover {
+    background-color: #dcdcdc;
+    color:  #000000;
+    padding-left: 69px;
+    border-left: 1px solid #32424e;
+    border-right: 1px solid #32424e;
+}
+
+.discription {
+    margin: 50px 0 20px;
+}
+
+.discription p {
+    font-family: Arial, sans-serif;
+    color:  #2c2b2b;
+    font-size: 18px;
+    padding: 0 35px 30px 35px;
+}
+
+.bottom {
+    background-color: #b5b8bb;
+}
+
+.menu-bottom {
+    float: left;
+}
+
+.menu-bottom a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: #010000;
+    font-size: 28px;
+}
+
+.menu-bottom li {
+    display: inline-block;
+    padding: 22px 20px 22px 0;
+}
+
+.menu-bottom li:first-child {
+    padding-left: 44px;
+}
+
+.copyright {
+    display: block;
+    float: right;
+    text-align: right;
+    font-size: 24px;
+    padding: 23px 34px 23px 0;
+}
+
+.menu-bottom a:hover {
+    color: #3181a6;
+    text-decoration: underline;
+}
