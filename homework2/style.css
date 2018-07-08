@@ -72,13 +72,26 @@ body{
 }
 
 .main-img {
-    text-align: center;
-    border: 1px solid #32424e;
-    padding: 74px 0;
+    width: 320px;
+    height: 380px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
-.main-img img {
-    max-width: 100%;
+.main-img img  {
+    width: 320px;
+    height: 380px;
+    -webkit-transition: all 1.5s ease;
+}
+
+.main-img img:hover {
+    -webkit-transform: scale(1.2);
+}
+
+.border-img {
+    border: 1px solid #32424e;
+    padding: 74px 0;
+    width: 885px;
 }
 
 .clearfix:after {
@@ -97,8 +110,6 @@ body{
     background-color: #dcdcdc;
     color:  #000000;
     padding-left: 69px;
-    border-left: 1px solid #32424e;
-    border-right: 1px solid #32424e;
 }
 
 .discription {
