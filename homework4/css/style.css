@@ -1,0 +1,312 @@
+.background {
+    background: url("../images/background.png") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header-container {
+    background-color: rgb(78, 66, 57, 0.5);
+    padding: 20px 75px 20px 81px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-link {
+    font-family: Verdana, sans-serif;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo-link:hover {
+    color: #3cb878;
+}
+
+.header-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header-icons-links {
+    position: relative;
+}
+
+.header-icon-calendar-link {
+    width: 20px;
+    height: 20px;
+    background: url('../images/icons-sprites.png') -70px -10px;
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.header-icon-forum-link {
+    width: 28px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/icons-sprites.png') -237px -10px;
+    margin-right: 28px;
+}
+
+.header-icon-journey-link {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/icons-sprites.png') -149px -10px;
+    margin-right: 28px;
+}
+
+.header-icon-calendar-link:hover {
+    width: 20px;
+    height: 20px;
+    background: url('../images/icons-sprites.png') -31px -10px;
+    display: inline-block;
+    margin-right: 28px;
+}
+
+.header-icon-forum-link:hover {
+    width: 28px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/icons-sprites.png') -189px -10px;
+    margin-right: 28px;
+}
+
+.header-icon-journey-link:hover {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/icons-sprites.png') -109px -10px;
+    margin-right: 28px;
+}
+
+.header-line {
+    width: 2px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/icons-sprites.png') -10px -10px;
+    margin-right: 28px;
+}
+
+.welcome {
+    font-family: Verdana,sans-serif;
+    color:  #ffffff;
+    font-size: 14px;
+}
+
+.link-green {
+    font-family: Verdana,sans-serif;
+    color:  #3cb878;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link-green:hover {
+    text-decoration: underline;
+}
+
+.sign-up-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    box-sizing: border-box;
+}
+
+.square-green {
+    width: 18px;
+    height: 18px;
+    background-color: #3aba78;
+    position: absolute;
+    left: -60px;
+    top: 1px;
+}
+
+.sign-up-field-container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 60px 50px;
+    width: 444px;
+    box-sizing: border-box;
+}
+
+.sign-up-with {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.field-name {
+    font-family: Verdana, sans-serif;
+    color:  #434343;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.social-media-btn {
+    width: 100%;
+    padding: 13px 18px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.facebook-btn {
+    background-color: #214997;
+    border-color: #214997;
+    border-radius: 3px;
+}
+
+.google-btn {
+    background-color: #c43f28;
+    border-color: #c43f28;
+    border-radius: 3px;
+}
+
+.social-media-btn-line {
+    width: 2px;
+    height: 20px;
+    display: inline-block;
+    background: url('../images/icons-sprites.png') -10px -10px;
+}
+
+.social-media-name {
+    font-family: Verdana, sans-serif;
+    color:  #ffffff;
+    font-size: 16px;
+}
+
+.sign-up-facebook-link {
+    text-decoration: none;
+    display: inline-block;
+    width: 48%;
+}
+
+.sign-up-google-link {
+    text-decoration: none;
+    display: inline-block;
+    width: 48%;
+}
+
+.fab {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.divider {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 33px;
+    margin-bottom: 13px;
+}
+
+.line-grey {
+    border: 1px solid #eaeaea;
+    background-color: #eaeaea;
+    display: block;
+    width: 100%;
+}
+
+.or {
+    margin: 0 18px;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-form-item {
+    width: 100%;
+    padding: 18px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    font-family: Verdana, sans-serif;
+    color: #434343;
+    font-size: 14px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    outline: none;
+}
+
+.registration-form-item:hover {
+    box-shadow: -1px 4px 10px rgba(0,0,0,0.15), -2px 4px 4px rgba(0,0,0,0.12);
+    transition-property: box-shadow;
+    transition-duration: .5s;
+}
+
+.registration-form-item::-webkit-input-placeholder {
+    color: #bebebe;
+}
+
+.checkbox input {
+    display: none;
+}
+
+.checkbox input:checked + .checkbox-text::before {
+    background-image: url("../images/checkbox.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid  #eaeaea;
+    border-radius: 3px;
+}
+
+.checkbox-text {
+    font-family: Verdana, sans-serif;
+    color:  #434343;
+    font-size: 14px;
+}
+
+.checkbox-text::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid  #eaeaea;
+    border-radius: 3px;
+}
+
+.registration-form-checkbox {
+    width: 100%;
+    text-align: left;
+    margin-top: 22px;
+}
+
+.registration-form-submit {
+    width: 100%;
+    background-color: #3aba78;
+    padding: 17px;
+    font-family: Verdana, sans-serif;
+    color:  #ffffff;
+    font-size: 16px;
+    border-color: #3aba78;
+    border-radius: 3px;
+    margin-top: 28px;
+    outline: none;
+}
+
